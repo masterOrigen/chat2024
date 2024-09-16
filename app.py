@@ -92,9 +92,7 @@ if "chat_history" not in st.session_state:
 
 load_dotenv()
 
-st.set_page_config(page_title="Chat Origen Medios", page_icon=":speech_balloon:")
 
-st.title("Chat IA")
 
 # Conexión automática a la base de datos
 db = init_database("doadmin", "AVNS_Vfn884XHZhbBRmGnXLo", "chatgpt-do-user-3243287-0.c.db.ondigitalocean.com", "25060", "OrigenMedios")
