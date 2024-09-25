@@ -87,7 +87,7 @@ def get_response(user_query: str, db: SQLDatabase, chat_history: list):
   
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = [
-        AIMessage(content="¡Hola! Soy tu asistente de SQL. Pregúntame cualquier cosa sobre tu base de datos."),
+        AIMessage(content="¡Hola! cuéntame que información de inversión en medios necesitas saber, de la forma más detallada posible, y la buscaré para ti"),
     ]
 
 load_dotenv()
